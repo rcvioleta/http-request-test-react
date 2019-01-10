@@ -1,0 +1,29 @@
+.Blog {
+    width: 100%;
+    text-align: center;
+}
+
+.Blog ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Blog li {
+    margin: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.Blog a {
+    text-decoration: none;
+    color: black;
+}
+
+.Blog a:hover,
+.Blog a:active,
+.Blog a.active {
+    color: orange;
+    padding-bottom: 5px;
+    border-bottom: 5px solid orange;
+}
